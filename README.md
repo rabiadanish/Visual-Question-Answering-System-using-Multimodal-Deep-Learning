@@ -60,27 +60,27 @@ The **Gated Fusion Network** was selected as the best-performing model. The arch
 
 Follow these notebooks in order for a complete workflow:
 
-1. **Exploratory Data Analysis**
-(`VQA Project EDA.ipynb`)
+1. **Exploratory Data Analysis** 
+[`VQA Project EDA.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Exploratory%20Data%20Analysis/VQA_Project_EDA.ipynb)
 * Understand data distributions, question lengths, and answer imbalance.
 
 2. **Preprocessing & Feature Extraction**
-(`Data_preprocessing.ipynb`)
+[`Data_preprocessing.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Data%20preprocessing/Data_preprocessing.ipynb)
 * Clean and tokenize text (BERT).
 * Resize and normalize images, extract ResNet50 features.
 * Label‑encode and one‑hot answers.
 
 3. **Model Training**
 
-* Baseline: `Baseline Concatenation Model.ipynb`
-* Gated Fusion: `Gated Fusion Network.ipynb`
-* Bilinear Fusion: `Bilinear Fusion Network.ipynb`
-* Transformer Fusion: `Transformer Fusion Network.ipynb`
+* Baseline: [`Baseline Concatenation Model.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Model%20architecture/Baseline_Concatenation_Model.ipynb)
+* Gated Fusion: [`Gated Fusion Network.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Model%20architecture/Gated_Fusion_Network.ipynb)
+* Bilinear Fusion: [`Bilinear Fusion Network.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Model%20architecture/Bilinear_Fusion_Network.ipynb)
+* Transformer Fusion: [`Transformer Fusion Network.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Model%20architecture/Transformer_Fusion_Network.ipynb)
 
 Run the notebook of your chosen approach to train & validate.
 
 4. **Evaluation & Visualization**
-(`Evaluation_visualization.ipynb`)
+[`Evaluation_visualization.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Evaluation_visualization/Evaluation_visualization.ipynb)
 * Generate learning curves.
 * Display sample image–question–predicted answer.
 

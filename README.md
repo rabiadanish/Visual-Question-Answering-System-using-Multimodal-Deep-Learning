@@ -65,7 +65,7 @@ Follow these notebooks in order for a complete workflow:
 * Understand data distributions, question lengths, and answer imbalance.
 
 2. **Preprocessing & Feature Extraction**
-[`Data_preprocessing.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Data%20preprocessing/Data_preprocessing.ipynb)
+[`Data_preprocessing.ipynb`](https://github.com/rabiadanish/Visual-Question-Answering-System-using-Multimodal-Deep-Learning/tree/main/Data_preprocessing/Data_preprocessing.ipynb)
 * Clean and tokenize text (BERT).
 * Resize and normalize images, extract ResNet50 features.
 * Label‑encode and one‑hot answers.
